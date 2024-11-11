@@ -11,7 +11,7 @@ pipeline {
         stage('Compile') {
             steps {
                 // Compila el código en C++
-                sh 'g++ -o holamundo holamundo.cpp'
+                sh 'g++ -o holamundo holamundo.cc'
             }
         }
         stage('Run') {
